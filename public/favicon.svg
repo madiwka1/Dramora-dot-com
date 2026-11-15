@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Dramora">
+  <rect width="120" height="120" rx="27" fill="#0B1633"/>
+  <path d="M33 25 H59 C78.3 25 94 40.7 94 60 C94 79.3 78.3 95 59 95 H33 C30.8 95 29 93.2 29 91 V29 C29 26.8 30.8 25 33 25 Z" fill="#C6F24E"/>
+  <path d="M50 45 L50 75 L75 60 Z" fill="#0B1633" stroke="#0B1633" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="89" cy="30" r="7" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* Design tokens — see memory ui-design-direction. Dark mode only. */
+@theme {
+  /* Dramora palette: midnight navy surfaces, cloud-white type, electric-lime highlight. Flat color, no gradients. */
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "SF Pro Text", sans-serif;
+  --font-display: "Bricolage Grotesque", var(--font-sans);
+  --font-logo: var(--font-display);
+
+  --color-white: #eef2f7; /* cloud white: all text-white/* utilities */
+  --color-black: #040914; /* navy-black: overlays and scrims stay on-palette */
+  --color-bg: #0a1222;
+  --color-surface: #111b30;
+  --color-surface-2: #18243d;
+  --color-accent: #c6f24e; /* electric lime (logo color) */
+  --color-accent-from: #c6f24e;
+  --color-accent-to: #c6f24e;
+  --color-on-accent: #0a1222; /* text/icons placed on the accent */
+
+  /* Play mode "fake video": slow cinematic push-in on the episode art. */
+  --animate-kenburns: kenburns 30s ease-out forwards;
+  @keyframes kenburns {
+    from { transform: scale(1); }
+    to { transform: scale(1.18) translate(-2%, -3%); }
+  }
+}
+
+/* Personalization (Settings): data-theme / data-accent on <html>. Defaults = midnight + lime above. */
+[data-theme='midnight'] { --color-bg: #0a1222; --color-surface: #111b30; --color-surface-2: #18243d; }
+[data-theme='graphite'] { --color-bg: #0e0f12; --color-surface: #17191d; --color-surface-2: #202328; }
+[data-theme='plum'] { --color-bg: #120b1c; --color-surface: #1c1329; --color-surface-2: #261a37; }
+[data-theme='oled'] { --color-bg: #000000; --color-surface: #0b0d12; --color-surface-2: #13161d; }
+
+[data-accent='lime'] { --color-accent: #c6f24e; --color-accent-from: #c6f24e; --color-accent-to: #c6f24e; --color-on-accent: #0a1222; }
+[data-accent='sky'] { --color-accent: #4cc9ff; --color-accent-from: #4cc9ff; --color-accent-to: #4cc9ff; --color-on-accent: #0a1222; }
+[data-accent='amber'] { --color-accent: #ffb547; --color-accent-from: #ffb547; --color-accent-to: #ffb547; --color-on-accent: #0a1222; }
+[data-accent='rose'] { --color-accent: #ff3d6e; --color-accent-from: #ff3d6e; --color-accent-to: #ff7a9a; --color-on-accent: #fff5f7; }
+[data-accent='violet'] { --color-accent: #8b5cf6; --color-accent-from: #8b5cf6; --color-accent-to: #b49bfb; --color-on-accent: #f5f2ff; }
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer components {
+  .btn-primary,
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-2.5 text-sm font-medium transition
+      disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply bg-accent font-semibold text-on-accent hover:brightness-110 active:brightness-95;
+  }
+  .btn-outline {
+    @apply border border-white/25 hover:border-white/60 hover:bg-white/5;
+  }
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-bg font-sans text-white antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  @apply bg-accent text-on-accent;
+}

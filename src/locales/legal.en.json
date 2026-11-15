@@ -1,0 +1,288 @@
+{
+  "eyebrow": "Legal",
+  "effective": "Effective {date}",
+  "draftNote": "Template for review: have a licensed attorney review these documents before launch.",
+  "terms": {
+    "title": "Terms of Service",
+    "intro": "These Terms govern your use of Dramora, a website operated by {company}. By using Dramora you agree to these Terms. If you do not agree, do not use the service.",
+    "sections": [
+      {
+        "id": "eligibility",
+        "title": "1. Who can use Dramora",
+        "body": [
+          "You must be at least 18 years old and located in the United States to create an account or buy anything on Dramora. Guests joining a friend's room must also be 18 or older.",
+          "You are responsible for keeping your login secure and for activity under your account."
+        ]
+      },
+      {
+        "id": "subscriptions",
+        "title": "2. Dramora Plus subscriptions and automatic renewal",
+        "body": [
+          "Dramora Plus is a paid subscription offered weekly, monthly or yearly. The price, billing period and any introductory discount are shown before you buy.",
+          "Your subscription renews automatically at the end of each billing period and your payment method is charged the then-current price until you cancel.",
+          "You can cancel anytime from your profile menu or Settings, or by emailing {email}. Cancellation stops future renewals; you keep access until the end of the period you already paid for.",
+          "We will notify you before any price change takes effect, and before an introductory price ends, as required by law."
+        ]
+      },
+      {
+        "id": "tokens",
+        "title": "3. Tokens",
+        "body": [
+          "Tokens are a limited license to unlock content or features inside Dramora. Tokens have no cash value, cannot be exchanged for money, sold or transferred, and are not property.",
+          "Tokens you buy do not expire while your account is open. Bonus tokens from invites or promotions may have conditions shown when you receive them.",
+          "Refunds for tokens are covered by our Refund Policy."
+        ]
+      },
+      {
+        "id": "rooms",
+        "title": "4. Rooms and your conduct",
+        "body": [
+          "Rooms let you play dramas with friends. Do not harass others, impersonate anyone, share illegal content, or try to disrupt or reverse-engineer the service.",
+          "We may remove content, end rooms, or suspend accounts that break these rules."
+        ]
+      },
+      {
+        "id": "content",
+        "title": "5. Our content and AI-generated media",
+        "body": [
+          "Dramas, images, video, audio and text on Dramora are owned by {company} or its licensors and are licensed to you for personal, non-commercial viewing only.",
+          "Some content is created with the help of artificial intelligence. Characters and events are fictional; any resemblance to real people is coincidental.",
+          "Do not copy, download, record, redistribute or publicly display Dramora content except as the service allows."
+        ]
+      },
+      {
+        "id": "copyright",
+        "title": "6. Copyright complaints (DMCA)",
+        "body": [
+          "If you believe content on Dramora infringes your copyright, send a notice to {email} with: your contact details, the work you claim is infringed, where it appears on Dramora, a statement of good-faith belief, a statement under penalty of perjury that your notice is accurate and that you are authorized to act, and your physical or electronic signature."
+        ]
+      },
+      {
+        "id": "disclaimers",
+        "title": "7. Disclaimers",
+        "body": [
+          "Dramora is provided as is and as available. To the extent permitted by law, we disclaim all warranties, express or implied, including merchantability, fitness for a particular purpose and non-infringement. We do not promise the service will be uninterrupted or error-free."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "8. Limitation of liability",
+        "body": [
+          "To the extent permitted by law, {company} is not liable for indirect, incidental, special, consequential or punitive damages, and our total liability for any claim is limited to the amount you paid us in the 12 months before the claim.",
+          "Some states do not allow these limits, so they may not apply to you."
+        ]
+      },
+      {
+        "id": "termination",
+        "title": "9. Ending your account",
+        "body": [
+          "You can stop using Dramora and delete your account anytime by emailing {email}. We may suspend or end access if you violate these Terms or if required by law."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "10. Disputes and governing law",
+        "body": [
+          "Please contact us first at {email}; most issues can be solved quickly. These Terms are governed by the laws of the State of {state}, without regard to conflict-of-law rules. Any dispute will be handled in the state or federal courts located in {state}, unless your local consumer law gives you the right to bring it elsewhere."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "11. Changes to these Terms",
+        "body": [
+          "We may update these Terms. If a change is material, we will notify you in the app or by email before it takes effect. Continuing to use Dramora after the change means you accept it."
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "12. Contact",
+        "body": [
+          "{company} · {email}"
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This policy explains what personal information {company} collects through Dramora, how we use it, and the choices you have.",
+    "sections": [
+      {
+        "id": "collect",
+        "title": "1. Information we collect",
+        "body": [
+          "Account information: your name, email address and sign-in details (for example from Google).",
+          "Guest information: the display name you choose when joining a room without an account.",
+          "Activity: what you watch, choices and votes in rooms, invites you send and accept, token balance and history, and watch time.",
+          "Payments: handled by our payment processor, Stripe. We receive your plan, the amount and the payment status; we never see or store your full card number.",
+          "Device and usage data: browser type, device, approximate location from IP address, and pages viewed, used to run and improve the service."
+        ]
+      },
+      {
+        "id": "use",
+        "title": "2. How we use it",
+        "body": [
+          "To provide Dramora: run rooms and votes, unlock episodes, apply invite rewards and keep your token balance.",
+          "To process payments and subscriptions, prevent fraud and abuse, and enforce our Terms.",
+          "To understand and improve the product, and to send service messages such as receipts and renewal reminders. We send marketing email only if you opt in, and you can unsubscribe anytime."
+        ]
+      },
+      {
+        "id": "share",
+        "title": "3. Who we share it with",
+        "body": [
+          "Service providers that process data for us under contract: hosting and database (Supabase and our web host), payments (Stripe), and product analytics.",
+          "Other players in your room see your display name, character and choices.",
+          "Authorities when required by law, or to protect rights and safety; and a buyer if Dramora is sold or merged.",
+          "We do not sell your personal information and we do not share it for cross-context behavioral advertising."
+        ]
+      },
+      {
+        "id": "storage",
+        "title": "4. Cookies and browser storage",
+        "body": [
+          "Essential: Dramora uses your browser's local storage and essential cookies to keep you signed in, remember settings like your theme, and save watch progress. These are needed for the site to work and are always on.",
+          "Analytics (optional): only if you choose \"Allow analytics\" in the cookie banner do we use analytics cookies to understand how Dramora is used. You can change your choice anytime with \"Cookie settings\" in the footer.",
+          "We honor the Global Privacy Control signal: if your browser sends it, analytics stays off. We do not use advertising or cross-site tracking cookies."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "5. How long we keep it",
+        "body": [
+          "We keep account data while your account is open and delete or anonymize it within 90 days after you delete your account, except records we must keep for legal, tax or fraud-prevention reasons."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "6. Your choices and rights",
+        "body": [
+          "You can access, correct, download or delete your personal information, and opt out of marketing, by emailing {email}. We will verify your request and respond within the time the law requires. We will not discriminate against you for using these rights."
+        ]
+      },
+      {
+        "id": "california",
+        "title": "7. California and other U.S. state privacy rights",
+        "body": [
+          "If you live in California or another state with a consumer privacy law, you have the right to know what personal information we collect and why, to access and delete it, to correct it, and to opt out of its sale or sharing. Dramora does not sell or share personal information, so there is nothing to opt out of; you can still contact us at {email} with any request. You may use an authorized agent."
+        ]
+      },
+      {
+        "id": "children",
+        "title": "8. Children",
+        "body": [
+          "Dramora is for adults 18 and older. We do not knowingly collect information from anyone under 18. If you believe a minor has given us information, contact {email} and we will delete it."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "9. Security",
+        "body": [
+          "We protect your information with encryption in transit, access controls and trusted providers. No system is perfectly secure, so please use a strong, unique password."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "10. Changes",
+        "body": [
+          "We will post updates here and change the effective date. For material changes we will notify you in the app or by email."
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "11. Contact",
+        "body": [
+          "{company} · {email}"
+        ]
+      }
+    ]
+  },
+  "refunds": {
+    "title": "Refund Policy",
+    "intro": "We want you to be happy with Dramora. Here is how refunds work.",
+    "sections": [
+      {
+        "id": "subscriptions",
+        "title": "1. Dramora Plus subscriptions",
+        "body": [
+          "You can cancel anytime. Cancellation stops the next renewal; you keep access until the end of the period you paid for.",
+          "If you were charged for a renewal you did not intend, contact us within {days} days of the charge and we will refund it if you have not used Plus since that renewal.",
+          "Except as described here or required by law, payments for periods already started are not refunded."
+        ]
+      },
+      {
+        "id": "tokens",
+        "title": "2. Token packs",
+        "body": [
+          "You can request a refund for a token pack within {days} days of purchase if none of its tokens have been spent. Spent tokens cannot be refunded."
+        ]
+      },
+      {
+        "id": "problems",
+        "title": "3. Mistakes and technical problems",
+        "body": [
+          "If you were charged twice, charged in error, or could not access content you paid for because of a problem on our side, we will fix it or refund you."
+        ]
+      },
+      {
+        "id": "how",
+        "title": "4. How to ask for a refund",
+        "body": [
+          "Email {email} with the email on your account, the date and the amount of the charge. Approved refunds go back to your original payment method, usually within 5 to 10 business days.",
+          "Please contact us before filing a chargeback with your bank so we can resolve it quickly."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "5. Your legal rights",
+        "body": [
+          "Nothing in this policy limits any refund rights you have under the laws of your state."
+        ]
+      }
+    ]
+  },
+  "credits": {
+    "title": "Credits",
+    "intro": "Dramora is built with the help of these creators and projects.",
+    "sections": [
+      {
+        "id": "icons",
+        "title": "Icons",
+        "body": [
+          "Invite icon by kumakamu from Noun Project (CC BY 3.0)",
+          "Feed icon by Gregor Cresnar from Noun Project (CC BY 3.0)",
+          "Friend icon by Asep Yopie Hardi Noer from Noun Project (CC BY 3.0)",
+          "Token icon by Marz Gallery from Noun Project (CC BY 3.0)"
+        ]
+      },
+      {
+        "id": "fonts",
+        "title": "Fonts",
+        "body": [
+          "Bricolage Grotesque by Mathieu Triay, SIL Open Font License 1.1",
+          "Inter by Rasmus Andersson, SIL Open Font License 1.1"
+        ]
+      },
+      {
+        "id": "trademarks",
+        "title": "Trademarks",
+        "body": [
+          "Apple Pay is a trademark of Apple Inc. Google Pay is a trademark of Google LLC. PayPal is a trademark of PayPal, Inc. Stripe is a trademark of Stripe, Inc. Their logos are shown only to indicate accepted payment methods; no endorsement is implied."
+        ]
+      },
+      {
+        "id": "software",
+        "title": "Open-source software",
+        "body": [
+          "Vue, Vue Router, Pinia, vue-i18n, Vite, Tailwind CSS and supabase-js are used under the MIT License."
+        ]
+      },
+      {
+        "id": "ai",
+        "title": "AI-generated content",
+        "body": [
+          "Posters, scenes, video and voices on Dramora may be created with generative AI tools. All characters and stories are fictional."
+        ]
+      }
+    ]
+  }
+}

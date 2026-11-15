@@ -1,0 +1,318 @@
+{
+  "app": {
+    "name": "Dramora"
+  },
+  "nav": {
+    "menu": "Main menu",
+    "home": "Home",
+    "feed": "Feed",
+    "create": "Create Together",
+    "invite": "Invite Friends",
+    "search": "Search",
+    "playable": "Playable"
+  },
+  "common": {
+    "watchNow": "Watch Now",
+    "playWithFriends": "Play with friends",
+    "viewAll": "View all",
+    "backHome": "Back to home",
+    "error": "Something went wrong. Try again."
+  },
+  "home": {
+    "justReleased": "Just Released",
+    "top": "Top {n} on Dramora",
+    "badgeNew": "New",
+    "categories": "Browse by genre",
+    "results": "Results",
+    "noResults": "No dramas found.",
+    "banner": {
+      "title": "Watch together. Vote together.",
+      "text": "Invite your friends, pick your characters and decide what happens next.",
+      "cta": "Create together"
+    },
+    "badgePlayable": "Playable",
+    "playable": {
+      "title": "Playable with friends",
+      "text": "Pick a character, invite your friends, and vote on what happens next.",
+      "characters": "{n} characters"
+    }
+  },
+  "create": {
+    "title": "Create Together",
+    "text": "Start a room with friends, or make a drama of your own.",
+    "room": {
+      "title": "Start a room",
+      "text": "Pick a drama, share the link, and vote together at every cliffhanger.",
+      "start": "Start a room",
+      "with": "Scenario: {title}",
+      "needPass": "Get Dramora Plus to host",
+      "signIn": "Sign in to host a room"
+    },
+    "make": {
+      "title": "Make a drama",
+      "text": "Choose a genre, cast your friends as characters, and generate an episode.",
+      "cost": "{n} tokens per episode",
+      "soon": "Coming soon"
+    }
+  },
+  "invite": {
+    "title": "Invite Friends",
+    "text": "Share your link. When a friend joins a room and votes, you both get tokens.",
+    "yourLink": "Your invite link",
+    "copy": "Copy link",
+    "copied": "Copied",
+    "rules": {
+      "inviter": "You get {n} tokens for every friend who activates",
+      "friend": "Your friend starts with {n} bonus tokens",
+      "paid": "+{n} tokens when a friend subscribes",
+      "cap": "Up to {n} rewarded invites per month"
+    },
+    "history": "Token history",
+    "empty": "No token activity yet."
+  },
+  "profile": {
+    "open": "Open profile menu",
+    "demo": "Demo",
+    "tokens": "Tokens",
+    "watchTime": "Watch time",
+    "watchTimeValue": "{h}h {m}m",
+    "earn": "Earn {n} tokens per invite",
+    "buyTokens": "Buy tokens",
+    "plan": "Plan",
+    "planFree": "Free",
+    "planPass": "Plus",
+    "getPass": "Get Dramora Plus",
+    "cancelPass": "Cancel",
+    "freePlan": "Free plan",
+    "watched": "Watched",
+    "from": "from {price}",
+    "inviteFriends": "Invite friends",
+    "plusPitch": "Every episode unlocked. Host rooms with friends.",
+    "upgrade": "Upgrade",
+    "plusActive": "Dramora Plus is active"
+  },
+  "tokens": {
+    "reason": {
+      "starter": "Welcome bonus",
+      "invite_inviter": "Friend joined",
+      "invite_friend": "Invite bonus",
+      "paid_referral": "Friend subscribed",
+      "subscriber_monthly": "Dramora Plus tokens",
+      "token_pack": "Token pack",
+      "spend_scene": "Generated a scene",
+      "spend_episode": "Generated an episode",
+      "unlock_episode": "Unlocked an episode"
+    }
+  },
+  "comingSoon": {
+    "title": "Coming next",
+    "text": "This screen is next on the build list."
+  },
+  "room": {
+    "lobby": "Lobby",
+    "title": "Room {code}",
+    "invite": "Invite friends to this room",
+    "inviteHint": "Anyone with the link can join. No account needed.",
+    "join": {
+      "title": "Join the room",
+      "text": "Pick the name your friends will see.",
+      "name": "Your name",
+      "cta": "Join room"
+    },
+    "players": "Players",
+    "host": "Host",
+    "you": "you",
+    "choosing": "Choosing a character…",
+    "scenario": {
+      "title": "1. Pick a scenario",
+      "hint": "Anyone can change it. Changing it resets everyone's character."
+    },
+    "characters": {
+      "title": "2. Choose your character",
+      "empty": "Pick a scenario first.",
+      "takenBy": "Taken by {name}",
+      "yours": "Your character"
+    },
+    "start": "Start the drama",
+    "waitingHost": "Waiting for the host to start…",
+    "needScenario": "Pick a scenario to continue.",
+    "needPlayers": "Need at least {n} players. Share the link!",
+    "needCharacters": "Everyone needs a character.",
+    "errors": {
+      "pass_required": "Hosting a room needs Dramora Plus.",
+      "room_not_found": "This room doesn't exist or has ended.",
+      "not_member": "Join the room first.",
+      "not_playable": "This drama can't be played with friends.",
+      "room_started": "This room has already started.",
+      "no_scenario": "Pick a scenario first.",
+      "unknown_character": "That character isn't in this scenario.",
+      "taken": "Someone just took that character.",
+      "not_host": "Only the host can start.",
+      "not_enough_players": "Not enough players yet.",
+      "characters_missing": "Everyone needs a character first.",
+      "not_signed_in": "Please sign in again.",
+      "demoOtherBrowser": "Demo rooms only work in tabs of the same browser. Open the link in a new tab here, or use “Add demo player” in the host's lobby.",
+      "demo_only": "Demo players are only available in demo mode.",
+      "not_voting": "The choice time is over.",
+      "not_your_turn": "It's not your turn.",
+      "unknown_choice": "That choice isn't available."
+    },
+    "addDemoPlayer": "Add demo player",
+    "started": "This drama has started: {title}",
+    "rejoin": "Rejoin the game"
+  },
+  "watch": {
+    "back": "Back",
+    "breadcrumb": "Breadcrumb",
+    "episode": "Episode {n}",
+    "title": "Episode {n} - {title}",
+    "plot": "Plot of Episode {n}",
+    "more": "More",
+    "less": "Less",
+    "episodes": "Episodes",
+    "count": "{n} episodes",
+    "locked": "locked",
+    "comingSoon": "The video for this episode is coming soon.",
+    "notFound": "Episode not found.",
+    "paywall": {
+      "title": "Episode {n} is locked",
+      "text": "Unlock it with tokens, or get Dramora Plus for every episode.",
+      "unlock": "Unlock for {n} tokens",
+      "getTokens": "Get tokens to unlock",
+      "plus": "Get Dramora Plus",
+      "balance": "You have {n} tokens"
+    }
+  },
+  "paywall": {
+    "title": "Dramora Plus",
+    "subtitle": "Unlock all episodes of your favorite dramas and playables.",
+    "close": "Close",
+    "plan": {
+      "week": "Weekly Deal",
+      "month": "Monthly",
+      "year": "Yearly"
+    },
+    "per": {
+      "week": "week",
+      "month": "month",
+      "year": "year"
+    },
+    "off": "{n}% off today",
+    "save": "Save {n}%",
+    "tokensIncluded": "+{n} tokens every month",
+    "cta": "Continue · {price}/{per}",
+    "member": "You're a Dramora Plus member. Enjoy every episode!",
+    "payWith": "Pay with",
+    "tokens": {
+      "title": "Or buy tokens",
+      "text": "Unlock single episodes for {n} tokens each.",
+      "fine": "Tokens can't be exchanged for cash, transferred, or refunded."
+    },
+    "methods": {
+      "apple-pay": "Apple Pay",
+      "google-pay": "Google Pay",
+      "paypal": "PayPal",
+      "stripe": "Stripe"
+    },
+    "demo": {
+      "badge": "Demo purchase",
+      "title": "Confirm your purchase",
+      "tokens": "{n} tokens",
+      "note": "Demo mode: no real payment is made and nothing is charged.",
+      "yes": "Yes, buy",
+      "no": "No"
+    },
+    "renew": "Auto-renews. Cancel anytime.",
+    "legal": "Renews automatically at {price} until you cancel. Cancel anytime in your profile. By continuing you agree to the {terms} and {refunds}."
+  },
+  "settings": {
+    "title": "Settings",
+    "reset": "Reset to defaults",
+    "profile": {
+      "title": "Profile",
+      "name": "Display name",
+      "save": "Save",
+      "saved": "Saved.",
+      "demoNote": "Demo mode: your name resets when the page reloads."
+    },
+    "appearance": {
+      "title": "Appearance",
+      "theme": "Theme",
+      "accent": "Accent color"
+    },
+    "themes": {
+      "midnight": "Midnight navy",
+      "graphite": "Graphite",
+      "plum": "Plum",
+      "oled": "OLED black"
+    },
+    "accents": {
+      "lime": "Electric lime",
+      "sky": "Sky",
+      "amber": "Amber",
+      "rose": "Rose",
+      "violet": "Violet"
+    },
+    "playback": {
+      "title": "Playback",
+      "autoplay": "Autoplay next episode",
+      "autoplayHint": "Start the next episode when one ends.",
+      "previews": "Hover previews",
+      "previewsHint": "Play a short clip when you point at a poster."
+    }
+  },
+  "play": {
+    "room": "Room {code}",
+    "episode": "Episode {n} of {total}",
+    "leave": "Leave game",
+    "yourMove": "Your move!",
+    "as": "as {character}",
+    "choosing": "{name} is choosing…",
+    "yourTurnToast": "Your turn! Choose what happens next.",
+    "yourTurnTitle": "🎬 Your turn!",
+    "chose": "{name} chose: {choice}",
+    "players": "Players",
+    "turn": "Choosing",
+    "next": "Next turn",
+    "you": "you",
+    "story": "Your story",
+    "storyEmpty": "Every choice your group makes appears here.",
+    "storyItem": "Ep {n} · {name}",
+    "theEnd": "The end",
+    "theEndText": "You finished {title} together.",
+    "playAgain": "Play again",
+    "home": "Back to home"
+  },
+  "footer": {
+    "tagline": "Short dramas you play with friends.",
+    "adults": "For adults 18+. All characters are fictional.",
+    "legal": "Legal",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "refunds": "Refund Policy",
+    "credits": "Credits",
+    "doNotSell": "Do Not Sell or Share My Info",
+    "contact": "Contact",
+    "payments": "Payments are processed securely by Stripe.",
+    "copyright": "© {year} {company} · All rights reserved.",
+    "cookies": "Cookie settings"
+  },
+  "cookies": {
+    "title": "Cookies on Dramora",
+    "text": "We use essential storage to keep you signed in and remember your settings. With your OK, we would also use analytics cookies to learn what to improve. No advertising cookies, ever.",
+    "essential": "Essential only",
+    "allow": "Allow analytics",
+    "gpc": "Your browser sent a Global Privacy Control signal, so analytics stays off.",
+    "manage": "Manage cookies",
+    "manageTitle": "Manage cookies",
+    "save": "Save choices",
+    "alwaysOn": "Always on",
+    "settingsTitle": "Privacy & cookies",
+    "cat": {
+      "essential": "Essential",
+      "essentialText": "Keep you signed in, remember your settings and watch progress, and keep payments secure. The site cannot work without these.",
+      "analytics": "Analytics",
+      "analyticsText": "Help us understand which features and dramas people use so we can improve Dramora. No advertising, no cross-site tracking."
+    }
+  }
+}
