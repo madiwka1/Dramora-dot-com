@@ -1,4 +1,4 @@
-# Dramora
+# Dramora By GreenLantern
 
 Short vertical dramas you watch alone or play with friends. Each friend takes a character, and at every cliffhanger the group decides what happens next.
 
