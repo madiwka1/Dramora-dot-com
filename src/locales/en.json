@@ -6,7 +6,7 @@
     "menu": "Main menu",
     "home": "Home",
     "feed": "Feed",
-    "create": "Create Together",
+    "create": "Creation",
     "invite": "Invite Friends",
     "search": "Search",
     "playable": "Playable"
@@ -28,7 +28,7 @@
     "banner": {
       "title": "Watch together. Vote together.",
       "text": "Invite your friends, pick your characters and decide what happens next.",
-      "cta": "Create together"
+      "cta": "Open the Creation room"
     },
     "badgePlayable": "Playable",
     "playable": {
@@ -38,21 +38,41 @@
     }
   },
   "create": {
-    "title": "Create Together",
-    "text": "Start a room with friends, or make a drama of your own.",
+    "eyebrow": "Creation room",
+    "title": "Play a drama with your friends.",
+    "text": "Pick a story, send the link, and decide every cliffhanger together.",
+    "steps": [
+      {
+        "title": "Pick a drama",
+        "text": "Choose a scenario here, or decide together in the lobby."
+      },
+      {
+        "title": "Share the link",
+        "text": "Friends join from any phone. No account needed."
+      },
+      {
+        "title": "Choose together",
+        "text": "Take turns deciding what happens at every cliffhanger."
+      }
+    ],
     "room": {
-      "title": "Start a room",
-      "text": "Pick a drama, share the link, and vote together at every cliffhanger.",
       "start": "Start a room",
-      "with": "Scenario: {title}",
       "needPass": "Get Dramora Plus to host",
-      "signIn": "Sign in to host a room"
+      "signIn": "Sign in to host a room",
+      "scenario": "Scenario",
+      "pickHint": "Optional",
+      "selected": "{title} selected",
+      "hostNote": "Hosting needs Dramora Plus. Friends join free."
     },
     "make": {
-      "title": "Make a drama",
-      "text": "Choose a genre, cast your friends as characters, and generate an episode.",
+      "eyebrow": "Make your own",
+      "soon": "Coming soon",
+      "title": "Write a drama with a prompt.",
+      "text": "Describe a story, pick a genre and cast your friends. Each generated episode costs {n} tokens.",
+      "prompt": "Describe your drama",
+      "placeholder": "A wedding planner discovers the groom is her own fiancé…",
       "cost": "{n} tokens per episode",
-      "soon": "Coming soon"
+      "generate": "Generate"
     }
   },
   "invite": {

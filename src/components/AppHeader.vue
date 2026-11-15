@@ -30,7 +30,7 @@ const items = computed(() => [
   { to: '/', icon: 'home', label: 'nav.home', active: route.path === '/' && !playableOnly.value },
   { to: { path: '/', query: { playable: '1' } }, icon: 'play', label: 'nav.playable', active: playableOnly.value },
   { to: '/feed', icon: 'feed', label: 'nav.feed', active: route.path === '/feed' },
-  { to: '/create', icon: 'users', label: 'nav.create', active: route.path === '/create' },
+  { to: '/create', icon: 'sparkles', label: 'nav.create', active: route.path === '/create' },
   { to: '/invite', icon: 'invite', label: 'nav.invite', active: route.path === '/invite' },
 ])
 </script>
