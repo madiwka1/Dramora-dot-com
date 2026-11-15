@@ -66,10 +66,15 @@ const activeGenre = computed(() => tab.value ?? catalog.genres[0])
           :key="hero.id"
           :aria-label="hero.title"
           aria-roledescription="slide"
-          class="relative flex min-h-[70vh] w-full shrink-0 snap-start items-end bg-cover"
-          :class="hero.backdropUrl ? 'bg-top' : 'bg-center'"
-          :style="posterStyle({ slug: hero.slug, posterUrl: hero.backdropUrl ?? hero.posterUrl })"
+          class="relative flex min-h-[70vh] w-full shrink-0 snap-start items-end overflow-hidden"
         >
+          <!-- Phones get the vertical poster (made for portrait); wider screens get the wide key art. -->
+          <div class="absolute inset-0 bg-cover bg-top md:hidden" :style="posterStyle(hero)" />
+          <div
+            class="absolute inset-0 hidden bg-cover md:block"
+            :class="hero.backdropUrl ? 'bg-top' : 'bg-center'"
+            :style="posterStyle({ slug: hero.slug, posterUrl: hero.backdropUrl ?? hero.posterUrl })"
+          />
           <div class="absolute inset-0 bg-linear-to-r from-bg via-bg/60 to-transparent" />
           <div class="absolute inset-0 bg-linear-to-t from-bg via-transparent to-transparent" />
           <div class="relative max-w-2xl space-y-5 p-4 pb-14 md:p-12 md:pb-16">

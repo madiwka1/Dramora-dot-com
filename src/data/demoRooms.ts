@@ -1,7 +1,7 @@
 // Demo rooms live in localStorage and sync through 'storage' events, so two tabs of ONE browser
 // can play together without a backend. Cross-device rooms need Supabase. Mirrors the migration's lobby RPCs.
 import type { Room } from './rooms'
-import { config, dramas, episodes, getUser } from './demo'
+import { config, dramas, episodes, getUser, sessionId } from './demo'
 import { chooserId } from './turns'
 
 const KEY = 'dramora.demoRooms'
@@ -10,12 +10,8 @@ type Rooms = Record<string, Room> // by code; demo room id === code
 const load = (): Rooms => JSON.parse(localStorage.getItem(KEY) ?? '{}')
 const save = (rooms: Rooms) => localStorage.setItem(KEY, JSON.stringify(rooms))
 
-/** One identity per browser tab, so two tabs act as two players. */
-export function memberId(): string {
-  let id = sessionStorage.getItem('dramora.memberId')
-  if (!id) sessionStorage.setItem('dramora.memberId', (id = crypto.randomUUID()))
-  return id
-}
+/** One identity per browser tab (= the demo account id), so two tabs act as two players. */
+export const memberId = sessionId
 
 /** Return false from `change` to skip saving (avoids waking other tabs for no-op timer checks). */
 function update(code: string, change: (room: Room) => void | false) {

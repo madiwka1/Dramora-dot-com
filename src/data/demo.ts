@@ -100,7 +100,14 @@ export const episodes: Episode[] = demoEpisodes.map((e) => ({
       videoUrl: c.video && `/${c.video}` })),
 }))
 
-let user: User = { id: 'demo-user', displayName: 'User', isSubscriber: false, inviteCode: 'USER2026' }
+/** One demo identity per browser session (tab); rooms use the same id, so every joiner is a different player. */
+export function sessionId(): string {
+  let id = sessionStorage.getItem('dramora.memberId')
+  if (!id) sessionStorage.setItem('dramora.memberId', (id = crypto.randomUUID()))
+  return id
+}
+const tag = (parseInt(sessionId().replaceAll('-', '').slice(0, 8), 16) % 9000) + 1000 // 1000–9999
+let user: User = { id: sessionId(), displayName: `User ${tag}`, isSubscriber: false, inviteCode: `USER${tag}` }
 const transactions: TokenTransaction[] = [
   { id: 't2', delta: 50, reason: 'invite_inviter', createdAt: '2026-11-13T18:20:00Z' },
   { id: 't1', delta: 50, reason: 'starter', createdAt: '2026-11-10T09:00:00Z' },
