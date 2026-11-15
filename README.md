@@ -22,8 +22,7 @@ Short vertical dramas you watch alone or play with friends. Each friend takes a 
 - **Play with friends** – host a room, share a link, pick a scenario and characters, then take turns choosing one of three options at each cliffhanger. Choices can branch the story.
 - **Dramora Plus** – weekly, monthly and yearly plans, plus one-time token packs. Tokens unlock single episodes.
 - **Invites** – personal invite links with token rewards for both sides.
-- **Settings** – themes, accent colors, playback options, cookie preferences.
-- **Legal** – Terms, Privacy, Refund Policy, Credits, auto-renewal disclosure, cookie consent with Global Privacy Control support.
+
 
 ## Tech stack
 
