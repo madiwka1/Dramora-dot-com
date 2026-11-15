@@ -23,7 +23,7 @@ export const config: Record<string, unknown> = {
   'plans.plus': [
     { id: 'plus_weekly', period: 'week', amountCents: 599, compareAtCents: 1299 },
     { id: 'plus_monthly', period: 'month', amountCents: 1499, tokens: 2200 },
-    { id: 'plus_yearly', period: 'year', amountCents: 10000 },
+    { id: 'plus_yearly', period: 'year', amountCents: 11999 },
   ] satisfies PlusPlan[],
   'paywall.payment_methods': ['apple-pay', 'google-pay', 'paypal', 'stripe'],
   'tokens.packs': [

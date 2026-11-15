@@ -20,7 +20,7 @@ insert into public.config (key, value, description) values
   ('plans.plus', '[
      {"id":"plus_weekly",  "period":"week",  "amountCents":599,   "compareAtCents":1299},
      {"id":"plus_monthly", "period":"month", "amountCents":1499,  "tokens":2200},
-     {"id":"plus_yearly",  "period":"year",  "amountCents":10000}
+     {"id":"plus_yearly",  "period":"year",  "amountCents":11999}
    ]', 'Dramora Plus plans shown on the paywall (display only; Stripe price IDs live in env vars). tokens = granted each period'),
   ('paywall.payment_methods', '["apple-pay","google-pay","paypal","stripe"]',
    'Payment badges under the paywall button (files in public/payments/). Only list methods enabled in Stripe'),
